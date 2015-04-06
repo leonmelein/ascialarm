@@ -4,8 +4,8 @@
 */ 
 // Setting globals (yes, I really had to use them...)
 var touchstarted = false;
-var pause = "&#9616;&#9616;";
-var play = "&#9654;";
+var pause = '<span class="glyphicon glyphicon-pause"></span>';
+var play = '<span class="glyphicon glyphicon-play"></span>';
 var playButton = document.getElementById('play');
 
 // Set up play button
