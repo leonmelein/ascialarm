@@ -69,7 +69,31 @@ function playSound(item){
         player.src = 'audio/jahoor.mp3';
         player.loop = false;
         track.innerHTML = 'Jahoorrr';
-    } 
+    } else if (item == 6) {
+        player.src = 'audio/krekel.mp3';
+        player.loop = true;
+        track.innerHTML = 'Krekelgeluiden';
+    } else if (item == 7) {
+        player.src = 'audio/ikzalkijken.mp3';
+        player.loop = false;
+        track.innerHTML = 'Ik zal kijken wat ik voor je kan doen!';
+    } else if (item == 8) {
+        player.src = 'audio/geintjenatuurlijk.mp3';
+        player.loop = false;
+        track.innerHTML = 'Geintje natuurlijk!';
+    } else if (item == 9) {
+        player.src = 'audio/eten.mp3';
+        player.loop = false;
+        track.innerHTML = 'Eten!';
+    } else if (item == 10) {
+        player.src = 'audio/evenwatlater.mp3';
+        player.loop = false;
+        track.innerHTML = "Een A-E'tje!";
+    } else if (item == 11) {
+        player.src = 'audio/lachband.mp3';
+        player.loop = false;
+        track.innerHTML = "Lachband";
+    }
     // Play the sound
     player.play();
 }

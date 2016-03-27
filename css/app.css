@@ -34,12 +34,10 @@ body {
 
 #play {
     width: 15%;
-    min-width: 42px;
 }
 
 #track {
     width: 85%;
-    color: black;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
