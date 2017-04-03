@@ -93,6 +93,10 @@ function playSound(item){
         player.src = 'audio/lachband.mp3';
         player.loop = false;
         track.innerHTML = "Lachband";
+    } else if (item == 12) {
+        player.src = 'audio/letsgo.mp3';
+        player.loop = false;
+        track.innerHTML = "Let's go!";
     }
     // Play the sound
     player.play();
